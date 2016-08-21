@@ -1,0 +1,15 @@
+extends layout
+
+block css
+	style: include /css/header.css
+	+inlineCss('css/header.css')
+	+loadFont('https://fonts.googleapis.com/css?family=Open+Sans')
+	+loadCss('css/main.css')
+
+block js
+	+loadJs('libs/jquery/jquery.min.js', 'js/main.js')
+
+block content
+	h3 Welcome to roots!
+	:marked
+		Find tutorials and documentation at http://roots.cx : )
