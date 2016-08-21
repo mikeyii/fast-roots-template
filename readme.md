@@ -5,9 +5,9 @@
 ### Setup
 
 - make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
-- run `roots template add yiiwebtemplate https://github.com/exampleuser/mytemplate.`
-- Now when you are making a new project, use `roots new <name> --yiiwebtemplate`
-- optional run `roots template default yiiwebtemplate` for make this template default. After you can use just `roots new <name>`
+- run `roots tpl add yiiwebtpl https://github.com/mikeyii/fast-roots-template`
+- Now when you are making a new project, use `roots new <name> --yiiwebtpl`
+- optional run `roots template default yiiwebtemplate` for make this template default. After you can use `roots new <name>` without --yiiwebtpl
 - run `roots watch`
 - ???
 - get money
